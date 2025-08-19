@@ -1,0 +1,13 @@
+🎉 Welcome to the Node.js native HTTP Server! 🎉
+
+Here are some fun facts:
+
+1. JavaScript was created in 10 days by Brendan Eich in 1995.
+2. Node.js was created by Ryan Dahl in 2009.
+3. Node.js allows you to run JavaScript on the server side.
+4. The first “Hello World” ever was likely just a simple print to the console.
+
+Fun challenge: Try reading this file and count the number of words!
+
+Keep experimenting and enjoy coding! 🚀
+_____________________________________

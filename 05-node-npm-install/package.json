@@ -1,0 +1,17 @@
+{
+	"name": "05-node-npm-install",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"type": "module",
+	"main": "src/server.js",
+	"scripts": {
+		"start": "node --env-file=.env src/server.js",
+		"dev": "node --watch --env-file=.env src/server.js"
+	},
+	"dependencies": {
+		"chalk": "^5.6.0",
+		"cowsay": "^1.6.0"
+	}
+}
