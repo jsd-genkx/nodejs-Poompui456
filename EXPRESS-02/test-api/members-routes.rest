@@ -24,3 +24,38 @@ Content-Type: application/json
   "tags": ["js", "express"]
 }
 
+### TEST ERROR CASES
+
+### Create a note with missing title (should return 400)
+POST http://localhost:3001/notes
+Content-Type: application/json
+
+{
+  "Content": "Missing title field...",
+  "tags": ["error"]
+}
+
+### Create note with missing content (should return 400)
+POST http://localhost:3001/notes
+Content-Type: application/json
+
+{
+  "title": "Missing title field...",
+  "tags": ["error"]
+}
+
+### Update a non-existent note (should return 400)
+POST http://localhost:3001/notes/999
+Content-Type: application/json
+
+{
+    "title": "Should not exist"
+  "content": "This note does not exist",
+  "tags": []
+}
+
+### Delete a non-existent note (should return 400)
+DELETE http://localhost:3001/notes/999
+
+### Get route that does not exist (should return 400)
+GET http://localhost:3001/notes/999
