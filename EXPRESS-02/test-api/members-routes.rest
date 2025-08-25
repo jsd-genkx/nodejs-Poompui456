@@ -1,0 +1,26 @@
+### Create a new note
+POST http://localhost:3001/notes
+Content-Type: application/json
+
+{
+  "title": "JS Object",
+  "content": "is used to store and organize related data and functionality as key-value pairs.",
+  "tags": ["js"]
+}
+
+### GET to read notes
+GET http://localhost:3001/notes
+
+### delete the note
+DELETE http://localhost:3001/notes/1
+
+### PUT request to update note
+PUT http://localhost:3001/notes/1
+Content-Type: application/json
+
+{
+  "title": "JS Object",
+  "content": "is used to store and organize related data and functionality as key-value pairs.",
+  "tags": ["js", "express"]
+}
+
