@@ -1,5 +1,5 @@
-node_modules;
-http-tests;
+node_modules
+http-tests
 
-.DS_Store;
-.env;
+.DS_Store
+.env
